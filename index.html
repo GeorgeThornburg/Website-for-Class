@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+
+      Author: George Thornburg
+      Date:   04-07-2024
+
+      Filename:   index.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Rice Tree Felling</title>
+   <link href="styles.css" rel="stylesheet" />
+   <link rel="icon" href="logo.ico" type="image/x-icon">
+   <script src="script.js"></script>
+
+</head>
+
+   <body>
+      <div id="mainBody">
+         <header>
+         <div id="z1">
+               <img src="logo.png" alt="Rice Tree Felling" id="logo" />
+               <img src="logo_desktop.jpg" alt="Rice Tree Felling" id="logo_desktop" />
+               <nav>
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="#missouri-a">Services</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="#fifthBox">Contact Me</a></li>
+                  </ul>
+               </nav>
+         </div>
+         <div id = "z2">     
+            <img src="canopy1.jpg" alt="Canopy Image" id="canopy1"/>
+         </div>
+         </header>
+
+
+      <div id="firstBox">
+         <h1 id="intro">Professional <br>Tree <br>Removal</h1>
+         <div id="phoneBox" onclick="callNumber()">
+         <h3 id="callMe">Call</h3>
+         <img src="phone.png" alt="Phone Image" id="phone"/>
+         <h3>(660) 414-5288</h3>
+         </div>
+      </div>
+
+      <div id="secondBox">
+         <div id=secondBox-a>
+         <img id="missouri" src="missouri.png" alt="Missouri" usemap="#workmap">
+         <map name="workmap">
+         <area shape="rect" coords="44%,21%,50%,30%" alt="Computer" href="www.google.com">
+         </map>
+         </div>
+         <div id=secondBox-b>
+            <h3 id="missouri-a">Locally ran and operated business in and around the greater Randolph County area since 2018. <br> <br>Insured and Bonded. </h3>
+         </div>
+      </div>
+
+      <div id="thirdBox">
+         <h2 id="services">Services</h>
+         <table>
+            <tr>
+               <th><img id="service-images" src="tree_felling.png" alt="Tree Felling"></th>
+               <th><img id="service-images" src="branch_removal.png" alt="Branch Removal"></th>
+            </tr>
+            <tr>
+               <td>Tree Felling</td>
+               <td>Branch Removal</td>
+            </tr>
+            <tr>
+               <th><img id="service-images" src="stump_grinding.png" alt="Stump Grinding"></th>
+               <th><img id="service-images" src="tree_logging.png" alt="Tree Loggin"></th>
+            </tr>
+            <tr>
+               <td>Stump Grinding</td>
+               <td>Tree Logging</td>
+            </tr>
+         </table>
+      </div>
+
+      <div id="fourthBox">
+            <h2 id="reviews">Customer Reviews</h>
+            <blockquote><p>Tanner Rice did an outstanding job on my tree removal. He was professional, efficient, and left my yard looking like the tree was never there. I highly recommend him to anyone in need of tree removal. - John D.</p>
+            </blockquote>
+            <blockquote><p>I was impressed with the level of care and attention to detail Tanner put into my trees'. He truly went above and beyond to ensure my trees looked their best. Thank you! - Sarah M.</p>
+            </blockquote>
+      </div>
+
+      <div id="fifthBox">
+
+         <h5 id="fifthBox_a">Inquiries</h5>
+
+         <form >
+         <label for="name"></label>
+         <input type="text" id="name" name="name" placeholder="Name"><br>
+
+         <label for="email"></label>
+         <input type="text" id="email" name="email" placeholder="Email"><br>
+
+
+         <label for="subject"></label>
+         <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+
+         <label for="message"></label>
+         <input type="text" id="message" name="message" placeholder="Message"><br>
+
+         <input type="submit" value="Submit" onclick="handleSubmit()">
+
+      </form>
+      </div>
+
+
+
+         <footer>
+            <address>
+            Rice Tree Felling<br />
+            Thomas Hill, MO  65244 <br />
+            (660) 277-3359
+            </address>
+         </footer>
+
+
+      </div>
+
+   </body>
+</html>
